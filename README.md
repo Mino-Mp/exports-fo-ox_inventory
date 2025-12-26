@@ -2,8 +2,8 @@
 
 
 
-```
-# 获取物品名
+```lua
+-- 获取物品名
 local function GetAllItemNames()
     local itemsTable = exports.ox_inventory:Items()
     local itemNames = {}
