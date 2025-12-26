@@ -12,7 +12,9 @@ local function GetAllItemNames()
         for itemName, _ in pairs(itemsTable) do
             table.insert(itemNames, itemName)
         end
-        table.sort(itemNames) -- 按字母排序
+
+        -- 按字母排序
+        table.sort(itemNames)
     end
     
     return itemNames
