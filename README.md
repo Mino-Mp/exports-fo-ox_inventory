@@ -1,7 +1,6 @@
-# exports-fo-ox_inventory
-frequently used
+# frequently used exports fo ox_inventory
 
-获取物品名称
+
 ```lua
 local function GetAllItemNames()
     local itemsTable = exports.ox_inventory:Items()
